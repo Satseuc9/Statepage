@@ -1,0 +1,271 @@
+body{
+    width: 960;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header, footer, nav, section, article, aside {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+nav {
+    padding: 20px !important;
+}
+footer {
+    margin-top: -9px;
+}
+.header-content, .nav-menu, .follow-us h3, .top-cities-intro, .state-footer-content {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.texas-seal {
+    width: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border-radius: 54%;
+    
+}
+.nav-menu, .state-footer-content {
+    background-color: #343A40;
+    text-decoration: none;
+}
+.footer-links {
+    background-color: #343A40;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    }
+
+nav a:hover,
+nav:hover {
+    color: #007BFF;
+}
+.section-container, .about-state, .top-cities, .featured-image {
+    padding: 20px;
+}
+
+.image-section {
+height: auto;
+width: 100%;
+position:relative;
+}
+
+.overlay-text {
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+background-color: rgba(128, 128, 128, 0.5);
+color: white; 
+padding: 10px;
+
+z-index: 1;
+}
+.imgtex {
+    float: right;
+    height: auto;
+    position: relative;
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left: 5px;
+}
+
+
+.state-intro-overlay {
+margin-top: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.follow-us h3 {
+    border-radius: 10px;
+}
+.follow-us {
+    background-color: lightgrey;
+    border-color: #333;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 110px;
+}
+.follow-us img, .social-media-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 8px auto;
+    margin-top: 30px;
+    border-color: #333;
+}
+
+    
+.top-cities div {
+margin-bottom: 10px;
+}
+ img {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.city-name a{
+    display: block;
+    text-align: left;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    color: #333;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.city {
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+section#overview,#income,#location {
+
+    margin:0 auto;
+    max-width:660px;
+    padding:2px 15px 5px 15px;
+    background:#007BFF;
+    border-radius:15px;
+    color:rgb(255, 255, 255);
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+   color: #007BFF;
+}
+#img-middle {
+    position: absolute ; 
+    left: 50% ;
+    margin-top: -220px;
+    transform: translate(-50%, -50%) ;
+}
+#bottom-img {
+    color:#FFFFFF ;
+    text-align: center ;
+    font-size: 5vw ;
+}
+@media(min-width: 768px) {
+    .section-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-content, .about-state, .featured-image {
+        flex-basis: 48%;
+    }
+    .follow-us {
+        flex-basis: 30%;
+    }
+    
+}
+.cities-container {
+    margin:0 auto;
+    border:1px solid rgb(101, 101, 101);
+    border-radius:5px;
+    background:#d7d7d9;
+    max-width:450px;
+    padding:10px;
+}
+
+.cities-container a {
+    color:#163d78;
+}
+
+.cities-container a:hover {
+    color:#343A40;
+}
+.contact-us {
+    margin-top: 10em;;
+    margin-bottom: 10em;
+    padding: 2em;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    padding-right: 2em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+
+    
+}
+.contact-us, h1 {
+    text-align: center;
+    margin-bottom: 2em;
+    color: #333;
+    
+}
+form input,
+form textarea {
+    display:block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+body {
+background-color:#d7d7d9
+}
+.contact-us h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#f4f4f4;
+    color: #333;
+    resize: none;
+}
+form textarea {
+    padding-bottom:  3em;
+}
+form input:focus,
+form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+}
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#007BFF;
+    color:#fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+form button:hover {
+    background-color:#343A40
+}

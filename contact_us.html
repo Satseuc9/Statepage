@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" language="JavaScript">
+        function validateForm() {
+  // Get form fields
+  const i1 = document.getElementById("i1");
+  const i2 = document.getElementById("i2");
+
+
+  if (i1.value !== "" && i2.value !== "") {
+    alert("Fields are valid.");
+
+  } else {
+    alert("Please fill out both email fields.");
+   
+  }
+}
+    </script>
+</head>
+<body>
+    <header>        
+        <div class="header-content">        
+            <img src="https://c1.wallpaperflare.com/preview/447/990/536/emblem-lone-star-state-public-domain-seal.jpg" alt="Texas state seal" class="texas-seal">Texas</div>        
+    </header>
+    <nav class="nav-menu">
+        <ul>
+            <li><a class="nav-menu" href="index.html" onclick="window.location.reload(true);">Home</a></li>
+            <li><a class="nav-menu" href="cities.html">Cities</a></li>
+            <li><a class="nav-menu" href="#history.html">History</a></li>
+            <li><a class="nav-menu" href="#attractions">Attractions</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="contact-us">
+                <h1>Contact Us</h1>
+                <form>
+                    <input type="text" placeholder="Your First Name" name=" First Name" required on invalid="this.setCustomValidity('Please enter your name')"  input="this.setCustomValidity('')">
+                    <input type="text" placeholder="Your Last Name" name=" Last Name" required on invalid="this.setCustomValidity('Please enter your last name')"  input="this.setCustomValidity('')">
+                    <input type="text" id="i1" placeholder=" Email" name="Email_1" required on invalid="this.setCustomValidity('Please enter your email')"  input="this.setCustomValidity('')" >
+                    <input type="text" id="i2" placeholder="Confirm Email" name="Email_2" required on invalid="this.setCustomValidity('Please confirm your email')"  input="this.setCustomValidity('')">
+                    <textarea type="text" placeholder=" Message" name="Message" required on invalid="this.setCustomValidity('Please enter your message')"  input="this.setCustomValidity('')"></textarea>
+                    <button type="submit" onclick="validateForm()">Send</button>
+                </form>
+            </div>
+        </section>
+       
+    </main>
+
+        <div id="bottom-img">
+            <img src="https://wallpapercosmos.com/w/full/c/3/1/698444-3840x2160-desktop-4k-texas-hill-country-wallpaper-photo.jpg" alt="Featured Image description" style="width:100%;">
+            <div id="img-middle">Experience the Heartbeat of Texas</div>
+        </div>
+    
+    <footer>
+        <nav class="state-footer-content">
+            <a class="footer-links" href="index.html" onclick="window.location.reload(true);">Home</a>  
+           
+        </nav>
+    </footer>
+</body>
+</html>
